@@ -1,0 +1,27 @@
+{
+    "checkin": [
+        {
+            "id": 0,
+            "user": 1,
+            "date": "",
+            "time_in": "",
+            "time_out": "",
+            "lunch_in": "",
+            "lunch_out": "",
+            "extra_time": "",
+            "status": 1
+        },
+        {
+            "id": 1,
+            "user": 2,
+            "date": "",
+            "time_in": "",
+            "time_out": "",
+            "lunch_in": "",
+            "lunch_out": "",
+            "extra_time": "",
+            "status": 1
+        }
+    ],
+    "users": [{ "id": 1, "name": "", "lastname": "", "email": "", "phone": "", "area_id": "" }]
+}
