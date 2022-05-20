@@ -1,18 +1,36 @@
 {
     "users": [
         {
-            "id": 1,
+            "id": 0,
             "email": "asd",
             "password": "asd",
             "status": "active",
             "validity": true
         },
         {
-            "id": 2,
+            "id": 1,
             "email": "johan@gmail.com",
             "password": "asd",
             "status": "inactive",
             "validity": true
+        }
+    ],
+    "admins": [
+        {
+            "id": 0,
+            "name": "jovi",
+            "lastname": "rivera",
+            "email": "johan@gmail.com",
+            "phone": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 1,
+            "name": "johan",
+            "lastname": "rivera",
+            "email": "johan@gmail.com",
+            "phone": "9999999",
+            "area_id": 1
         }
     ]
 }
