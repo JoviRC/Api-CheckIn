@@ -2,14 +2,14 @@
     "users": [
         {
             "id": 0,
-            "email": "asd",
+            "email": "Laboratorio",
             "password": "asd",
             "status": "active",
             "validity": true
         },
         {
             "id": 1,
-            "email": "johan@gmail.com",
+            "email": "Casino",
             "password": "asd",
             "status": "inactive",
             "validity": true
@@ -19,6 +19,7 @@
         {
             "id": 0,
             "name": "jovi",
+            "rut": "12345678-9",
             "lastname": "rivera",
             "email": "johan@gmail.com",
             "phone": "9999999",
@@ -27,6 +28,7 @@
         {
             "id": 1,
             "name": "johan",
+            "rut": "12345678-9",
             "lastname": "rivera",
             "email": "johan@gmail.com",
             "phone": "9999999",

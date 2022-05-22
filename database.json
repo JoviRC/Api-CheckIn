@@ -1,8 +1,9 @@
 {
     "checkin": [
         {
-            "id": 0,
+            "id": 1,
             "user_id": 1,
+            "area_id": 1,
             "date": "",
             "time_in": "",
             "time_out": "",
@@ -10,16 +11,101 @@
             "lunch_out": "",
             "extra_time": "",
             "status": 1
+        },
+        {
+            "id": 2,
+            "user_id": 1,
+            "area_id": 0,
+            "date": "5/4/2022",
+            "time_in": "17:30",
+            "time_out": "17:31",
+            "lunch_in": "17:31",
+            "lunch_out": "17:31",
+            "extra_time": "",
+            "status": 4
         }
     ],
     "users": [
         {
             "id": 1,
             "name": "johan",
+            "rut": "12345678-9",
             "lastname": "rivera",
             "email": "johan@gmail.com",
             "number": "9999999",
-            "area_id": 1
+            "area_id": 0
+        },
+        {
+            "id": 2,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 3,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 4,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 5,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 6,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 7,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 8,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
+        },
+        {
+            "id": 9,
+            "name": "jovi alejandro",
+            "rut": "12345678-9",
+            "lastname": "rivera casanga",
+            "email": "johan@gmail.com",
+            "number": "9999999",
+            "area_id": 0
         }
     ]
 }

@@ -72,9 +72,10 @@ server.post("/auth/tokenAdmin", (req, res) => {
     return;
 });
 // add checkin to database.json
-server.put("/checkin", (req, res) => {
-    const { id_user } = req.body;
-    let idxUser = parseInt(id_user); // id del usuario parseada
+server.put("/checkin/update", (req, res) => {
+    const { id_user, area_id } = req.body;
+    let idxUser = parseInt(id_user);
+    let idArea = parseInt(area_id); // id del usuario parseada
     fs.readFile("./database.json", (err, data) => {
         // err = error, data = contenido del archivo
         if (err) {
@@ -121,6 +122,7 @@ server.put("/checkin", (req, res) => {
             data.checkin.push({
                 id: data.checkin.length + 1,
                 user_id: idxUser,
+                area_id: idArea,
                 date: today,
                 time_in: `${date.getHours()}:${date.getMinutes()}`,
                 time_out: "",
